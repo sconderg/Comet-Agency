@@ -17,8 +17,8 @@ gulp.task('sass', function() {
     .pipe(gulp.dest('./css'));
 });
 
-gulp.task('sass:watch', function() {
-    gulp.watch('./css/*.scss', ['sass']);
+gulp.task('sass-watch', function() {
+    gulp.watch('./css/*.scss', gulp.series(['sass']));
 });
 
 gulp.task('browser-sync', function() {
@@ -37,9 +37,9 @@ gulp.task('browser-sync', function() {
 });
 
 // Default task
-gulp.task('default', gulp.series('browser-sync'), function() {
-    gulp.start('sass:watch');
-});
+gulp.task('default-tasks', gulp.parallel(['browser-sync', 'sass-watch']));
+
+gulp.task('default', gulp.series('default-tasks'));
 
 gulp.task('clean', function () {
     return del(['dist']);

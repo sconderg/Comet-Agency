@@ -4,9 +4,409 @@
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+        <!-- bootstrap css file -->
+        <link rel="stylesheet" href="./node_modules/bootstrap/dist/css/bootstrap.min.css">
+
+        <!-- font-awesome css file -->
+        <link rel="stylesheet" href="./node_modules/font-awesome/css/font-awesome.min.css">
+
+        <!-- custome css file -->
+        <link rel="stylesheet" href="./css/style.css">
+
         <title>Comet - Agency</title>
     </head>
     <body>
-        <h1>Hello World</h1>
+
+        <!-- header -->
+        <header id="main-header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <div class="container">
+                    <a class="navbar-brand" href="#"><img src="./img/logo.svg" alt="Comet" class="img-fluid px-3">Comet</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbar" aria-controls="navbar" aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+
+                    <div class="collapse navbar-collapse" id="navbar">
+                        <ul class="navbar-nav mx-auto">
+                            <li class="nav-item active">
+                                <a class="nav-link" href="#">Company <span class="sr-only">(current)</span></a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Projects</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">About</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Blog</a>
+                            </li>
+                            <li class="nav-item">
+                                <a class="nav-link" href="#">Contact</a>
+                            </li>
+                        </ul>
+                        <ul class="navbar nav ml-auto">
+                            <li class="nav-item">
+                                <a href="#" class="btn btn-success">Sign in</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </nav>
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-6 col-md-12">
+                        <h1 class="primary-color-text">We are "Comet", Creative Agency for web design.</h1>
+                        <p class="text-light-color">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore.</p>
+                        <button role="button" class="btn btn-primary">Get in Touch</button>
+                    </div>
+                    <div class="col-lg-6 col-md-12 d-none d-lg-block">
+                        <div class="img">
+                            <p>
+                                <img src="./img/smile.svg" class="p-1">
+                                <span>843 Happy Clients</span>
+                            </p>
+                            <img src="./img/h1.jpg" class="img-fluid" alt="header jpg">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <!-- .header -->
+
+        <!-- main site -->
+        <main id="main-site">
+            <!-- numbers -->
+            <div class="numbers">
+                <div class="container">
+                    <div class="row primary-color-text text-center">
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="box">
+                                <h2>74</h2>
+                                <p>Completed Projects</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="box">
+                                <h2>2472</h2>
+                                <p>Emails Sent</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="box">
+                                <h2>843</h2>
+                                <p>Clients</p>
+                            </div>
+                        </div>
+                        <div class="col-lg-3 col-md-6 col-xs-12">
+                            <div class="box">
+                                <h2>8967</h2>
+                                <p>Coffee Cups</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .numbers -->
+
+            <!-- about -->
+            <section class="about">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-12">
+                            <div class="row">
+                                <div class="col-md-2 d-none d-md-block">
+                                    <img src="./img/logo.svg" class="logo">
+                                </div>
+                                <div class="col-md-10">
+                                    <h2 class="h1 primary-color-text">The urge for good design is the same as the urge to go on living.</h2>
+                                </div>
+                            </div>
+                            
+                        </div>
+                        <div class="col-lg-12">
+                            <p class="primary-color-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua.</p>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <img class="img-fluid" src="./img/about.jpg" alt="About Jpg">
+                        </div>
+                        <div class="col-md-6">
+                            <div class="about-info">
+                                <h2 class="primary-color-text">Windu skywalker coruscant jango coruscant droid solo.</h2>
+                                <ul class="primary-color-text list-unstyled">
+                                    <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</li>
+                                    <li>Dolor sit amet, consetetur.</li>
+                                    <li>Consetetur sadipscing elitr, sed ound losto dest.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .about -->
+
+            <!-- our-projects -->
+            <section class="our-projects">
+                <div class="container">
+                    <h2 class="h1 primary-color-text">Our Awesome Projects</h2>
+                    <p class="primary-color-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                    <div class="projects">
+                        <div class="row">
+                            <div class="col-lg-4 col-md-6 .col-sm-12 mb-4">
+                                <div class="box">
+                                    <div class="img">
+                                        <img src="./img/projects/p1.jpg">
+                                    </div>
+                                    <div class="overlay text-center">
+                                        <img src="./img/white_logo.svg" class="img-fluid">
+                                        <h3 class="mt-2 mb-2">Project</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 .col-sm-12 mb-4">
+                                <div class="box">
+                                    <div class="img">
+                                        <img src="./img/projects/p2.jpg">
+                                    </div>
+                                    <div class="overlay text-center">
+                                        <img src="./img/white_logo.svg" class="img-fluid">
+                                        <h3 class="mt-2 mb-2">Project</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 .col-sm-12 mb-4">
+                                <div class="box">
+                                    <div class="img">
+                                        <img src="./img/projects/p3.jpg">
+                                    </div>
+                                    <div class="overlay text-center">
+                                        <img src="./img/white_logo.svg" class="img-fluid">
+                                        <h3 class="mt-2 mb-2">Project</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 .col-sm-12 mb-4">
+                                <div class="box">
+                                    <div class="img">
+                                        <img src="./img/projects/p4.jpg">
+                                    </div>
+                                    <div class="overlay text-center">
+                                        <img src="./img/white_logo.svg" class="img-fluid">
+                                        <h3 class="mt-2 mb-2">Project</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 .col-sm-12 mb-4">
+                                <div class="box">
+                                    <div class="img">
+                                        <img src="./img/projects/p5.jpg">
+                                    </div>
+                                    <div class="overlay text-center">
+                                        <img src="./img/white_logo.svg" class="img-fluid">
+                                        <h3 class="mt-2 mb-2">Project</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-4 col-md-6 .col-sm-12 mb-5">
+                                <div class="box">
+                                    <div class="img">
+                                        <img src="./img/projects/p6.jpg">
+                                    </div>
+                                    <div class="overlay text-center">
+                                        <img src="./img/white_logo.svg" class="img-fluid">
+                                        <h3 class="mt-2 mb-2">Project</h3>
+                                        <p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam.</p>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-lg-12 d-flex justify-content-center">
+                                <button role="button" class="btn btn-primary mt-1">Show me More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .our-projects -->
+
+            <!-- brands -->
+            <section class="brands">
+                <div class="container">
+                    <div class="wrapper">
+                        <img src="./img/brands/1.svg" alt="brand">
+                        <img src="./img/brands/2.svg" alt="brand">
+                        <img src="./img/brands/3.svg" alt="brand">
+                        <img src="./img/brands/4.svg" alt="brand">
+                        <img src="./img/brands/5.svg" alt="brand">
+                        <img src="./img/brands/6.svg" alt="brand">
+                    </div>
+                </div>
+            </section>
+            <!-- .brands -->
+
+            <!-- why-us -->
+            <section class="why-us">
+                <div class="container">
+                    <h2 class="h1 primary-color-text">The urge for good design is the same<br>as the urge to go on living.</h2>
+                    <p class="primary-color-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p class="primary-color-text">Sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.</p>
+                    <p class="primary-color-text">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam.</p>
+                    <div class="row mt-5">
+                        <div class="col-lg-6">
+                            <img src="./img/p9.jpg" class="img-fluid" alt="">
+                        </div>
+                        <div class="col-lg-6">
+                            <img src="./img/p7.jpg" class="img-fluid long" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .why-us -->
+
+            <!-- skywalker -->
+            <div class="skywalker">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <h2 class="primary-color-text">Windu skywalker coruscant jango coruscant droid solo.</h2>
+                            <ul class="primary-color-text list-unstyled">
+                                <li>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</li>
+                                <li>Dolor sit amet, consetetur.</li>
+                                <li>Consetetur sadipscing elitr, sed ound losto dest.</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!-- .skywalker -->
+
+            <!-- our-blog -->
+            <section class="our-blog">
+                <div class="container">
+                    <h2 class="h1 primary-color-text mb-5">Our Blog Stories</h2>
+                    <p class="primary-color-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                    <div class="row">
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="post">
+                                <div class="img mb-4">
+                                    <img src="./img/blog/blog-1.jpg" class="img-fluid" alt="">
+                                    <p class="primary-color-text">By: Luke Skywalker</p>
+                                </div>
+                                <h3 class="primary-color-text mb-3">We Have New Office</h3>
+                                <span class="primary-color-text date mr-3">Nov 17, 2020</span>
+                                <span class="grey-text-color">4 min read</span>
+                                <button role="button" class="btn mt-3 secondary-color-text text-uppercase">Read More</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="post">
+                                <div class="img mb-4">
+                                    <img src="./img/blog/blog-2.jpg" class="img-fluid" alt="">
+                                    <p class="primary-color-text">By: Luke Skywalker</p>
+                                </div>
+                                <h3 class="primary-color-text mb-3">We Have New Office</h3>
+                                <span class="primary-color-text date mr-3">Nov 17, 2020</span>
+                                <span class="grey-text-color">4 min read</span>
+                                <button role="button" class="btn mt-3 secondary-color-text text-uppercase">Read More</button>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 col-md-6 col-sm-12 mb-4">
+                            <div class="post">
+                                <div class="img mb-4">
+                                    <img src="./img/blog/blog-3.jpg" class="img-fluid" alt="">
+                                    <p class="primary-color-text">By: Luke Skywalker</p>
+                                </div>
+                                <h3 class="primary-color-text mb-3">We Have New Office</h3>
+                                <span class="primary-color-text date mr-3">Nov 17, 2020</span>
+                                <span class="grey-text-color">4 min read</span>
+                                <button role="button" class="btn mt-3 secondary-color-text text-uppercase">Read More</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .our-blog -->
+
+            <!-- contact-us -->
+            <section class="contact-us">
+                <div class="container">
+                    <h2 class="h1 primary-color-text mb-5">Contact Us</h2>
+                    <p class="primary-color-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. </p>
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <div class="img">
+                                <img src="./img/contact.jpg" class="img-fluid" alt="contact">
+                                <div class="info dark-text-color">
+                                    <p>+123 - 456 - 789</p>
+                                    <p>comet@agency.com</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-6 col-md-12">
+                            <p class="primary-color-text mb-5">Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat.</p>
+                            <form action="">
+                                <div class="row form-group">
+                                    <div class="col-lg-6">
+                                        <input type="text" name="name" placeholder="Name" class="form-control mb-3">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" name="surname" placeholder="Surname" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-6">
+                                        <input type="email" name="email" placeholder="Email" class="form-control mb-3">
+                                    </div>
+                                    <div class="col-lg-6">
+                                        <input type="text" name="subject" placeholder="Subject" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row form-group">
+                                    <div class="col-lg-12">
+                                        <textarea name="message" rows="10" placeholder="Message" class="form-control"></textarea>
+                                    </div>
+                                </div>
+                                <div class="row">
+                                    <div class="col-lg-12">
+                                        <button type="submit" class="mt-3 btn btn-success text-uppercase">Send Message</button>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!-- .contact-us -->
+        </main>
+        <!-- .main site -->
+
+        <!-- footer -->
+        <footer id="footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-4">
+                        <img src="./img/logo.svg" class="img-fluid" alt="logo">
+                    </div>
+                    <div class="col-lg-4">
+                        <p>© 2021 - <span class="secondary-color-text">Comet</span>, All Right Reserved</p>
+                    </div>
+                    <div id="backToTop" class="col-lg-4">
+                        Back to top <span class="fa fa-chevron-up"></span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- .footer -->
+
+        <!-- required js files / libraries -->
+        <script src="./node_modules/jquery/jquery.min.js"></script>
+        <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+        <script src="./js/plugins.js"></script>
     </body>
 </html>
