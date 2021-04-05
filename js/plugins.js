@@ -1,8 +1,8 @@
 /* NAVBAR SCRIPT */
-const solidNavbar = _ => {
+var solidNavbar = function () {
     $('nav').addClass('solid');
 }
-const transparentNavbar = _ => {
+var transparentNavbar = function () {
     $('nav').removeClass('solid');
 }
 $(window).on('load', function () { 
@@ -35,8 +35,8 @@ $(window).on('scroll', function () {
 });
 /* END NAVBAR */
 $(function() {
-    const backToTop = $('#backToTop');
-    backToTop.on('click', () => {
+    var backToTop = $('#backToTop');
+    backToTop.on('click', function () {
         $('html, body').animate({scrollTop : 0},800);
         return false;
     })
